@@ -673,6 +673,53 @@ footer .wrapper::after {
     font-weight: bold;
     margin-left: .5em;
 }
+/*send jobs page */
+#sendjobs #sendjobs-container{
+    margin-top: 100px;
+    background: none;
+    padding: 5em 0;
+
+}
+
+#sendjobs h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#cadastro {
+    position: relative;
+	left: 300px;
+    top: 5px;
+    }
+
+    
+    #sendjobs input, #sendjobs select, #sendjobs textarea {
+        background-color: #FFF;
+        border-radius: 10px;
+        border-color: transparent;
+        padding: 20px 100px;
+        font-size: 18px;
+        margin: 40 10px;
+        
+    }
+    
+     #sendjobs input[type=submit] {
+        position: relative;
+        background-color: #3381f3;
+        text-transform: uppercase;
+        color: #FFF;
+        cursor: pointer;
+        transition: 0.5s;
+        left: 35%;
+        top: 40px;
+    }
+    
+    #search-form input[type=submit]:hover, #sendjobs input[type=submit]:hover {
+        background-color: #2B79EB;
+    }   
+
+
 /*Find jobs page*/
 
 #findjobs #search-form input[type=submit]{
