@@ -1,3 +1,5 @@
+<? php include("conexao.php"); ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -18,8 +20,8 @@
 						<i class="fas fa-bars btn-menumobile"></i>
 					</a>
 					<ul>
-						<li><a href="findjobs.html">Encontrar vaga</a></li>
-						<li><a href="sendjobs.html">Enviar vaga</a></li>
+						<li><a href="findjobs.php">Encontrar vaga</a></li>
+						<li><a href="sendjobs.php">Enviar vaga</a></li>
 						<li><a href="#">Contato</a></li>
 					</ul>
 				</div>

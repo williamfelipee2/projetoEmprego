@@ -1,3 +1,5 @@
+<? php include("conexao.php"); ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,7 +15,7 @@
 		<header>
 			<nav>
 				<div class="nav-container" >
-					<a href="index.html">
+					<a href="index.php">
 						<img id="logo" src="img/logo.png" alt="JobFinder">
 						<i class="fas fa-bars btn-menumobile"></i>
 					</a>

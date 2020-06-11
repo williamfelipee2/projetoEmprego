@@ -1,3 +1,5 @@
+<? php include("conexao.php"); ?>
+
 <!DOCTYPE html>
 <html>
 
@@ -16,13 +18,13 @@
         <header>
             <nav>
                 <div class="nav-container">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img id="logo" src="img/logo.png" alt="JobFinder">
                     </a>
                     <i class="fas fa-bars btn-menumobile"></i>
                     <ul>
-                        <li><a href="findjobs.html">Encontrar vaga</a></li>
-                        <li><a href="sendjobs.html">Enviar vaga</a></li>
+                        <li><a href="findjobs.php">Encontrar vaga</a></li>
+                        <li><a href="sendjobs.php">Enviar vaga</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
                 </div>
